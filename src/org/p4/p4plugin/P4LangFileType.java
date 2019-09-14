@@ -14,7 +14,7 @@ public class P4LangFileType extends LanguageFileType {
 
     public static P4LangFileType INSTANCE = new P4LangFileType();
 
-    P4LangFileType() {
+    private P4LangFileType() {
         super(P4Lang.INSTANCE);
     }
 

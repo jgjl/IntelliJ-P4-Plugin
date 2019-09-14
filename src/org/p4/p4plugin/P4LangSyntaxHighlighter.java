@@ -86,7 +86,7 @@ public class P4LangSyntaxHighlighter extends SyntaxHighlighterBase {
 
     static final TextAttributesKey P4LANG_ANNONTATION = TextAttributesKey.createTextAttributesKey(
             "P4LANG.ANNONTATION",
-            DefaultLanguageHighlighterColors.LABEL
+            DefaultLanguageHighlighterColors.METADATA
     );
 
     static final TextAttributesKey P4LANG_TYPE = TextAttributesKey.createTextAttributesKey(

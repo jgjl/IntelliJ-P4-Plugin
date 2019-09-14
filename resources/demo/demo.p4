@@ -155,6 +155,7 @@ control packetio_egress(inout headers_t hdr,
     }
 }
 
+@pragma deprecated "Please don't use this control."
 control table0_control(inout headers_t hdr,
                        inout local_metadata_t local_metadata,
                        inout standard_metadata_t standard_metadata) {
